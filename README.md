@@ -2,6 +2,10 @@
 
   Conducted analysis in SQL to surface insights on sales trends and metrics for a self-created data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.
 
+
+Datasets
+
+
 **Revenue & Cost Performance Apr 24 – Mar 25 against propose Target and Budget Apr 25 – Mar 26**
 
 <img width="451" height="358" alt="image" src="https://github.com/user-attachments/assets/f409f7b9-cff3-493e-8460-91de895c9d5e" />
