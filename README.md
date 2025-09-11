@@ -7,7 +7,7 @@
 
 - [data/](Datasets/) → datasets  
 - [sql/](SQL/) → SQL queries  
-- [excel/](Dashboards/) → Excel dashboards  
+- [excel/](Dashboards.xlsx/) → Excel dashboards  
 - [images/](Graphs/) → charts & screenshots
 
 
