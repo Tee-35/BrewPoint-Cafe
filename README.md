@@ -3,24 +3,12 @@
   Conducted analysis in SQL to surface insights on sales trends and metrics for a self-created data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.
 
 
-- [data/](Datasets/) → datasets
-
-- COFFEE-SHOP-report.1-
-│
-├── README.md
-├── data/
-├── sql/
-├── excel/
-├── images/
-└── docs/
-
 ## 📂 Repository Structure
 
 - [data/](Datasets/) → datasets  
 - [sql/](SQL/) → SQL queries  
 - [excel/](Dashboards/) → Excel dashboards  
-- [images/](imagesSQL/) → charts & screenshots  
-- [docs/](docs/) → documentation  
+- [images/](Graphs/) → charts & screenshots
 
 
 **Revenue & Cost Performance Apr 24 – Mar 25 against propose Target and Budget Apr 25 – Mar 26**
