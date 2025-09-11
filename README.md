@@ -8,7 +8,7 @@
 - [data/](Datasets/) → datasets  
 - [sql/](SQL/) → SQL queries  
 - [excel/](Dashboards.xlsx/) → Excel dashboards  
-- [images/](Graphs/) → charts & screenshots
+- [images/](Images/) → charts & screenshots
 
 
 **Revenue & Cost Performance Apr 24 – Mar 25 against propose Target and Budget Apr 25 – Mar 26**
