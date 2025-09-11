@@ -7,7 +7,7 @@ JOIN items i ON o.item_id = i.item_id
 GROUP BY month, i.item_cat
 ORDER BY month;
 
-SELECT -- budge per catergory 
+SELECT -- budget per catergory 
     i.item_cat,
 	ROUND(SUM((o.quantity * i.item_price)/ 12), 2) AS Budget
 FROM orders o
