@@ -50,4 +50,4 @@
 3.	Improve stock management (target 12–15% daily sales).
 
 **Conclusion**
-The business shows strong profitability, but seasonal swings and product inefficiencies present risks. Through refined forecasting, tighter cost control, and product adjustments, the company can improve margins and ensure growth is both consistent and sustainable.
+The business shows strong profitability, but seasonal swings and product inefficiencies present risks. Through refined forecasting, tighter cost control, and product adjustments. The company can improve margins and ensure growth is both consistent and sustainable.
