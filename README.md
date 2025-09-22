@@ -1,23 +1,24 @@
-# COFFEE-SHOP-report.1-
-***Café Financial Report Apr24’ – Mar25’***
+## Project Background
 
-  Conducted analysis in SQL to surface insights on sales trends and metrics for a self-created data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.
+***Year‑in‑Review: Coffee Shop Financials Apr 2024‑Mar 2025***
+
+  Conducted analysis in SQL to surface insights on sales trends and metrics from a data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.
 
 
-## 📂 Repository Structure
+## 📂 Data Structure and Initial Check
 
 - [data/](Datasets/) → Datasets  
 - [sql/](SQL/) → SQL queries  
 - [excel/](Dashboards.xlsx/) → Excel dashboards  
 - [Images/](Images/) → Charts
 
+## Executive Summary
 
-
+#### Overview of Findings 
 
 **Revenue & Cost Performance Apr 24 – Mar 25 against propose Target and Budget Apr 25 – Mar 26**
 
 <img width="451" height="358" alt="image" src="https://github.com/user-attachments/assets/f409f7b9-cff3-493e-8460-91de895c9d5e" />
-
 
 
 •	Revenue between Apr 2024–Mar 2025 remained steady at **£10k–£11.5k per month**, with costs averaging **£1.7k** (12% of revenue).     
@@ -45,10 +46,10 @@
 •	Average monthly revenue: **£300–£400**; cost-to-sales ratio: **25.2%**.     
 •	Recipe change (remove whipped cream) reduces cost ratio to **21.9%**, saving **~£150 annually.**     
 •	Sales peak in winter, but overstocking leads to low turnover (6% daily sales).    
-**•	Recommendations:**
-1.	Recipe adjustment (reduce cost per unit).
-2.	Position as **seasonal product** to align with winter demand.
-3.	Improve stock management (target 12–15% daily sales).
 
-**Conclusion**
-The business shows strong profitability, but seasonal swings and product inefficiencies present risks. Through refined forecasting, tighter cost control, and product adjustments. The company can improve margins and ensure growth is both consistent and sustainable.
+## Recommendations:
+
+Based on the analysis, the following strategic actions are recommended to strengthen the business’ profit margins and reduce performance volatility:  
+1. **Adjust product recipe to reduce cost per unit** — Revise ingredients or portion sizes where feasible to lower production cost without compromising quality or customer satisfaction.  
+2. **Position the product as seasonal** — Emphasise its appeal during high‑demand winter months through targeted marketing and limited‑time offerings, ensuring inventory and staffing are aligned with seasonal demand.  
+3. **Enhance stock management practices** — Monitor stock levels more closely so that inventory targets remain within 12‑15% of daily sales, reducing waste and holding costs. Together, these measures will help mitigate risks stemming from seasonal swings and product inefficiencies. More refined forecasting, tighter cost control, and product optimisation will support more consistent, sustainable growth and improve overall margins.
