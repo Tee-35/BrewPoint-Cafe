@@ -17,7 +17,9 @@
 #### Overview of Findings 
 
 **Stable revenue with rising risk in costs**: Monthly revenues held steady at around **£10,000–£11,500**, with **costs averaging ~12% of revenue**. Projections suggest revenue could **grow ~3% per month**, reaching nearly **£15,000 by March 2026**. However, costs are forecast to exceed budgeted targets after **October 2025** unless closely managed.  
-**Significant seasonality and volatility**: Some months (May, July, August) exceeded expectations by **£300–£600**, while others (September, December, February) fell short by up to **£800**. This indicates pronounced seasonal demand swings and external factors affecting performance.
+**Significant seasonality and volatility**: Some months (May, July, August) exceeded expectations by **£300–£600**, while others (September, December, February) fell short by up to **£800**. This indicates pronounced seasonal demand swings and external factors affecting performance.  
+
+<img width="4743" height="2433" alt="Picture 1" src="https://github.com/user-attachments/assets/8f9b3634-a589-4f1a-933a-1fcb47b6a8a8" />
 
 
 ## Recommendations:
