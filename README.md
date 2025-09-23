@@ -7,6 +7,9 @@
 
 ## 📂 Data Structure and Initial Check
 
+<img width="713" height="428" alt="Screenshot 2025-09-23 at 12 48 43" src="https://github.com/user-attachments/assets/935b6fae-19df-4b8e-82dd-069664f91332" />  
+
+
 - [data/](Datasets/) → Datasets  
 - [sql/](SQL/) → SQL queries  
 - [excel/](Dashboards.xlsx/) → Excel dashboards  
