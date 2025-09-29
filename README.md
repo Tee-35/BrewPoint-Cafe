@@ -2,18 +2,18 @@
 
 ***Year‑in‑Review: Coffee Shop Financials Apr 2024‑Mar 2025***
 
-  Conducted analysis in SQL to surface insights on sales trends and metrics from a data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.
-
-
-## 📂 Data Structure and Initial Check
-
-<img width="713" height="428" alt="Screenshot 2025-09-23 at 12 48 43" src="https://github.com/user-attachments/assets/935b6fae-19df-4b8e-82dd-069664f91332" />  
-
+  Conducted analysis in SQL to surface insights on sales trends and metrics from a data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.  
 
 - [data/](Datasets/) → Datasets  
 - [sql/](SQL/) → SQL queries  
 - [excel/](Dashboards.xlsx/) → Excel dashboards  
 - [Images/](Images/) → Charts
+
+## 📂 Data Structure and Initial Check
+
+The database structure as seen below consist of three tables:  Ingredients, Inventory, Item, Orders, Recipe, Rota & Staff. 
+
+<img width="713" height="428" alt="Screenshot 2025-09-23 at 12 48 43" src="https://github.com/user-attachments/assets/935b6fae-19df-4b8e-82dd-069664f91332" />  
 
 ## Executive Summary
 
