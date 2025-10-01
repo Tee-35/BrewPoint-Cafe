@@ -11,7 +11,8 @@
 
 ## 📂 ERD, Data Structure and Initial Check  
 
-<img width="693" height="234" alt="ERD Coffee Shop" src="https://github.com/user-attachments/assets/d236f9f0-2171-4c32-8633-5265aca6ccc2" />
+<img width="693" height="234" alt="ERD Coffee Shop" src="https://github.com/user-attachments/assets/d236f9f0-2171-4c32-8633-5265aca6ccc2" />  
+
 
 The database structure as seen below consist of three tables:  Ingredients, Inventory, Item, Orders, Recipe, Rota & Staff. 
 
