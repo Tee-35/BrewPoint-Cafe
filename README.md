@@ -35,7 +35,7 @@ Hot Drinks accounted for nearly **50% of total revenue (£64.38K)**, making them
 
 Revenue trends show noticeable seasonality — **Hot Drinks peaked in colder months** (e.g., May and early winter), while **Cold Drinks rose during warmer months** (June–August). Bakery and Snacks remained stable but with lower volume.
 Sustained consistency despite fluctuations:
-Monthly revenues for all categories show overall stability after mid-year, suggesting established demand patterns. The moderate fluctuations across months imply predictable seasonality rather than sharp volatility.
+Monthly revenues for all categories show overall stability after mid-year, suggesting established demand patterns. The moderate fluctuations across months imply predictable seasonality rather than sharp volatility.  
 
 **Growth opportunities in underperforming categories:**
 While Hot Drinks drive most revenue, diversifying offerings or promotions for **Snacks and Bakery** could capture additional market share and reduce dependency on seasonal drink performance.
@@ -43,8 +43,18 @@ While Hot Drinks drive most revenue, diversifying offerings or promotions for **
 
 <img width="1359" height="770" alt="Screenshot 2025-10-12 at 20 52 28" src="https://github.com/user-attachments/assets/dfa1ed84-30ea-490a-b9ef-ee99471e8f6f" />
 
-#### Overv
+#### Produuct Focus:Cappuccino
+**Strong sales with cappuccino as the top performer:**
+Cappuccino generated the highest revenue among all products, driving a significant share of the £11K total gross revenue from 2,048 total orders between April 2024 and March 2025. It consistently outperformed other top-selling drinks such as Latte, Hot Chocolate, and Cold Mocha.  
 
+**Morning sales dominate performance:**
+Most cappuccino orders occurred in the morning (59%), with lunch (37%) and afternoon (4%) contributing smaller portions. This indicates strong early-day demand and highlights the importance of morning-focused promotions and service readiness.  
+
+**Stable yet seasonal sales pattern:**
+Monthly cappuccino revenue fluctuated between **£1,600 and £2,200**, showing mild dips in early winter but strong recoveries by March 2025. This pattern suggests consistent customer loyalty with modest seasonal variation rather than volatility.  
+
+**Opportunities for cross-selling and diversification:**
+Given cappuccino’s strong base, pairing it with bakery items or snacks during peak morning hours could increase average transaction values and enhance overall revenue stability.
 
 <img width="1207" height="783" alt="Screenshot 2025-10-12 at 20 52 49" src="https://github.com/user-attachments/assets/12836736-27aa-42bb-a1bc-abbf5ed7db3b" />
 
