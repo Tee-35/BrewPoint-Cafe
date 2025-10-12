@@ -25,8 +25,25 @@ The database structure as seen below consist of three tables:  Ingredients, Inve
 **Stable revenue with rising risk in costs**: Monthly revenues held steady at around **£10,000–£11,500**, with **costs averaging ~12% of revenue**. Projections suggest revenue could **grow ~3% per month**, reaching nearly **£15,000 by March 2026**. However, costs are forecast to exceed budgeted targets after **October 2025** unless closely managed.  
 **Significant seasonality and volatility**: Some months (May, July, August) exceeded expectations by **£300–£600**, while others (September, December, February) fell short by up to **£800**. This indicates pronounced seasonal demand swings and external factors affecting performance.  
 
+**Strong overall performance with balanced category mix:**
+Total gross revenue reached **£129K** from **23K transactions** over the period (Apr 2024–Mar 2025). Revenue levels remained relatively stable month to month, showing steady customer engagement across key categories.
+
+**Hot Drinks dominate sales performance:**
+Hot Drinks accounted for nearly **50% of total revenue (£64.38K)**, making them the primary income driver. Cold Drinks followed with **~25% (£32.96K)**, while Bakery and Snacks contributed **~13% (£16.23K)** and **~12% (£15.28K)** respectively.
+
+**Seasonal peaks and dips evident:**
+
+Revenue trends show noticeable seasonality — **Hot Drinks peaked in colder months** (e.g., May and early winter), while **Cold Drinks rose during warmer months** (June–August). Bakery and Snacks remained stable but with lower volume.
+Sustained consistency despite fluctuations:
+Monthly revenues for all categories show overall stability after mid-year, suggesting established demand patterns. The moderate fluctuations across months imply predictable seasonality rather than sharp volatility.
+
+**Growth opportunities in underperforming categories:**
+While Hot Drinks drive most revenue, diversifying offerings or promotions for **Snacks and Bakery** could capture additional market share and reduce dependency on seasonal drink performance.
+
+
 <img width="1359" height="770" alt="Screenshot 2025-10-12 at 20 52 28" src="https://github.com/user-attachments/assets/dfa1ed84-30ea-490a-b9ef-ee99471e8f6f" />
 
+#### Overv
 
 
 <img width="1207" height="783" alt="Screenshot 2025-10-12 at 20 52 49" src="https://github.com/user-attachments/assets/12836736-27aa-42bb-a1bc-abbf5ed7db3b" />
