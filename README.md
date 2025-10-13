@@ -4,10 +4,9 @@
 
   Conducted analysis in SQL to surface insights on sales trends and metrics from a data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.  
 
-- [data/](Datasets/) → Datasets  
-- [sql/](SQL/) → SQL queries  
-- [excel/](Dashboards.xlsx/) → Excel dashboards  
-- [Images/](Images/) → Charts
+The Excel file used to inspect clean and analyse the data is [here./](Datasets/)
+
+SQL queries used to export necessary tables you can find [here./](SQL/)  
 
 ## 📂 ERD, Data Structure and Initial Check  
 
