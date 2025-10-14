@@ -8,7 +8,7 @@ The Excel file used to inspect clean and analyse the data is [here.](Datasets/)
 
 SQL queries used to export necessary tables you can find [here.](SQL/)  
 
-## 📂 ERD, Data Structure and Initial Check  
+## ERD, Data Structure and Initial Check  
 
 <img width="693" height="234" alt="ERD Coffee Shop" src="https://github.com/user-attachments/assets/d236f9f0-2171-4c32-8633-5265aca6ccc2" />  
 
