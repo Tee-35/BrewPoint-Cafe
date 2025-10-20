@@ -37,10 +37,9 @@ Sustained consistency despite fluctuations:
 Monthly revenues for all categories show overall stability after mid-year, suggesting established demand patterns. The moderate fluctuations across months imply predictable seasonality rather than sharp volatility.  
 
 **Growth opportunities in underperforming categories:**
-While Hot Drinks drive most revenue, diversifying offerings or promotions for **Snacks and Bakery** could capture additional market share and reduce dependency on seasonal drink performance.
+While Hot Drinks drive most revenue, diversifying offerings or promotions for **Snacks and Bakery** could capture additional market share and reduce dependency on seasonal drink performance.  
 
-
-<img width="1359" height="770" alt="Screenshot 2025-10-12 at 20 52 28" src="https://github.com/user-attachments/assets/dfa1ed84-30ea-490a-b9ef-ee99471e8f6f" />
+<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 44" src="https://github.com/user-attachments/assets/99814494-e4cb-49f6-a31a-a0d2c8d0c8b4" />  
 
 #### Produuct Focus:Cappuccino
 **Strong sales with cappuccino as the top performer:**
@@ -53,10 +52,9 @@ Most cappuccino orders occurred in the morning (59%), with lunch (37%) and after
 Monthly cappuccino revenue fluctuated between **£1,600 and £2,200**, showing mild dips in early winter but strong recoveries by March 2025. This pattern suggests consistent customer loyalty with modest seasonal variation rather than volatility.  
 
 **Opportunities for cross-selling and diversification:**
-Given cappuccino’s strong base, pairing it with bakery items or snacks during peak morning hours could increase average transaction values and enhance overall revenue stability.
+Given cappuccino’s strong base, pairing it with bakery items or snacks during peak morning hours could increase average transaction values and enhance overall revenue stability.  
 
-<img width="1207" height="783" alt="Screenshot 2025-10-12 at 20 52 49" src="https://github.com/user-attachments/assets/12836736-27aa-42bb-a1bc-abbf5ed7db3b" />
-
+<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 44" src="https://github.com/user-attachments/assets/461870d8-3527-4b07-aaac-a2b77396aec0" />  
 
 ## Recommendations:
 
