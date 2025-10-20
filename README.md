@@ -54,7 +54,7 @@ Monthly cappuccino revenue fluctuated between **£1,600 and £2,200**, showing m
 **Opportunities for cross-selling and diversification:**
 Given cappuccino’s strong base, pairing it with bakery items or snacks during peak morning hours could increase average transaction values and enhance overall revenue stability.  
 
-<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 44" src="https://github.com/user-attachments/assets/461870d8-3527-4b07-aaac-a2b77396aec0" />  
+<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 49" src="https://github.com/user-attachments/assets/2031cdd3-3ec3-41e0-8bb3-a0dccc354028" />  
 
 ## Recommendations:
 
