@@ -6,7 +6,7 @@ Some of the data cleaning was done in Pandas
 I changed the data so that all values are in the same case.  
 <img width="382" height="303" alt="cust_name " src="https://github.com/user-attachments/assets/455e9e5c-e3fc-4644-8d0f-fb7d81a478c6" />  
 
-Date where a mix of different formats so I used to formulas to convert the data to the dateime type and that change the values to the correct date. 
+Date where a mix of different formats so I used to formulas to convert the data to the dateime type and that change the values to the correct date.  
 <img width="327" height="375" alt="date_unclean" src="https://github.com/user-attachments/assets/8fd6d3b3-7f20-47ac-936b-e5ffdf5a9376" />  
 <img width="560" height="149" alt="date_formulas" src="https://github.com/user-attachments/assets/17dfa422-7042-48f2-97c5-d6cbe4a441a4" />  
 <img width="157" height="285" alt="date_clean" src="https://github.com/user-attachments/assets/e3c1ff5c-3fe5-4ca0-8d1b-a488608a9bdf" />  
