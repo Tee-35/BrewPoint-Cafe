@@ -41,7 +41,7 @@ While Hot Drinks drive most revenue, diversifying offerings or promotions for **
 
 <img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 44" src="https://github.com/user-attachments/assets/99814494-e4cb-49f6-a31a-a0d2c8d0c8b4" />  
 
-#### Produuct Focus:Cappuccino
+#### Product Focus:Cappuccino
 **Strong sales with cappuccino as the top performer:**
 Cappuccino generated the highest revenue among all products, driving a significant share of the £11K total gross revenue from 2,048 total orders between April 2024 and March 2025. It consistently outperformed other top-selling drinks such as Latte, Hot Chocolate, and Cold Mocha.  
 
