@@ -144,6 +144,9 @@ intelligence reporting.
 
 ## Dashboard
 
+An overview dashboard was built to visualise the outputs of all four 
+models, directly answering the four core business questions.
+
 <img width="1038" height="784" alt="Screenshot 2026-03-30 at 21 30 42" src="https://github.com/user-attachments/assets/af93ced8-d05d-416b-8c72-d45c1fa3b106" />
 
 
