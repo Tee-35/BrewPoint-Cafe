@@ -1,66 +1,190 @@
-## Project Background ☕️
- 
-***Year‑in‑Review: Coffee Shop Financials Apr 2024‑Mar 2025***
+# BrewPoint Cafe ☕ — Member Insights & Sales Intelligence
 
-  Conducted analysis in SQL to surface insights on sales trends and metrics from a data set containing 15,000 orders. Worked independently for a few weeks to clean and analyse data in SQL, and built performance dashboards in Excel to visualise trends. Related to revenue performance, cost efficiency, and product-level profitability. The aim is to demonstrate how data analysis can highlight trends, identify risks, and recommend actions that support stronger financial performance.  
+A machine learning portfolio project built around a fictional coffee shop 
+membership scheme. The project follows a full data science pipeline — from 
+synthetic data generation through SQL feature engineering to four distinct 
+ML models — designed to demonstrate both analytical and data science 
+capability.
 
-The Excel file used to inspect clean and analyse the data is [here.](Datasets/README.md)
+---
 
-SQL queries used to export necessary tables you can find [here.](SQL/)  
+## Project Background
 
-## ERD, Data Structure and Initial Check  
+BrewPoint Cafe runs a membership card scheme that tracks every purchase made 
+by its 100 registered members across Q1 2026. This project uses that 
+transactional data to move beyond reporting what happened and start 
+predicting what will happen next.
 
-<img width="693" height="234" alt="ERD Coffee Shop" src="https://github.com/user-attachments/assets/d236f9f0-2171-4c32-8633-5265aca6ccc2" />  
+---
+
+## Business Questions
+
+1. **How much will a member spend on their next visit?**
+2. **What type of customer is each member?**
+3. **What will a member buy next?**
+4. **What will revenue look like over the next 4 weeks?**
+
+---
+
+## Dataset
+
+Synthetic dataset generated to reflect realistic cafe trading patterns.
+
+| Table | Rows | Description |
+|---|---|---|
+| `transactions` | 8,000 | Q1 2026 member purchases |
+| `members` | 100 | Loyalty card holders |
+| `items` | 28 | Menu items with sale price, cost price and margin |
+| `promotions` | 4 | Q1 promotional campaigns |
+| `promotion_redemptions` | 607 | Members who redeemed promotions |
+
+**Trading parameters baked into the data:**
+- Monday to Friday: 07:00 — 16:00
+- Saturday to Sunday: 09:00 — 14:00
+- Morning peak demand for hot drinks
+- Fewer transactions closer to closing time
+
+---
+
+## ERD — Data Structure
+
+<img width="565" height="392" alt="erd_diagram" src="https://github.com/user-attachments/assets/cd3226e2-2a3c-4ab2-8bc7-c3eb428c00b4" />
 
 
-The database structure as seen below consist of three tables:  Ingredients, Inventory, Item, Orders, Recipe, Rota & Staff. 
+---
 
-<img width="713" height="428" alt="Screenshot 2025-09-23 at 12 48 43" src="https://github.com/user-attachments/assets/935b6fae-19df-4b8e-82dd-069664f91332" />  
+## Pipeline
+```
+5 CSV Datasets
+      ↓
+SQL JOIN → ml_features.csv
+      ↓
+Python Feature Engineering
+      ↓
+┌─────────────────────────────────────┐
+│                                     │
+Regression  Clustering  Classification  Time Series
+│                                     │
+Model 1     Model 2     Model 3         Model 4
+```
 
-## Executive Summary
+---
 
-#### Overview of Findings 
+## Feature Engineering
 
-**Stable revenue with rising risk in costs**: Monthly revenues held steady at around **£10,000–£11,500**, with **costs averaging ~12% of revenue**. Projections suggest revenue could **grow ~3% per month**, reaching nearly **£15,000 by March 2026**. However, costs are forecast to exceed budgeted targets after **October 2025** unless closely managed.  
-**Significant seasonality and volatility**: Some months (May, July, August) exceeded expectations by **£300–£600**, while others (September, December, February) fell short by up to **£800**. This indicates pronounced seasonal demand swings and external factors affecting performance.  
+Raw transactional data was transformed into ML-ready features including:
 
-**Strong overall performance with balanced category mix:**
-Total gross revenue reached **£129K** from **23K transactions** over the period (Apr 2024–Mar 2025). Revenue levels remained relatively stable month to month, showing steady customer engagement across key categories.
+- Datetime decomposition — hour, day of week, month, session
+- Member level aggregations — total visits, average spend, favourite category
+- Recency features — days since last visit, member tenure
+- Promotion flags — promo used, discount percentage
+- Categorical encoding — item category, session, gender, age group
 
-**Hot Drinks dominate sales performance:**
-Hot Drinks accounted for nearly **50% of total revenue (£64.38K)**, making them the primary income driver. Cold Drinks followed with **~25% (£32.96K)**, while Bakery and Snacks contributed **~13% (£16.23K)** and **~12% (£15.28K)** respectively.
+---
 
-**Seasonal peaks and dips evident:**
+## Models
 
-Revenue trends show noticeable seasonality — **Hot Drinks peaked in colder months** (e.g., May and early winter), while **Cold Drinks rose during warmer months** (June–August). Bakery and Snacks remained stable but with lower volume.
-Sustained consistency despite fluctuations:
-Monthly revenues for all categories show overall stability after mid-year, suggesting established demand patterns. The moderate fluctuations across months imply predictable seasonality rather than sharp volatility.  
+### Model 1 — Customer Spend Predictor
+**Type:** Regression  
+**Goal:** Predict how much a member will spend on their next visit  
+**Models trained:** Linear Regression (baseline), Random Forest Regressor  
+**Evaluation:** MAE, R²
 
-**Growth opportunities in underperforming categories:**
-While Hot Drinks drive most revenue, diversifying offerings or promotions for **Snacks and Bakery** could capture additional market share and reduce dependency on seasonal drink performance.  
+**Key finding:** When quantity was removed from features, the model relied 
+on genuine behavioural signals — day of week, hour, item category and 
+average spend — each contributing roughly equally. This is a more honest 
+and useful predictor than one dominated by a single feature.
 
-<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 44" src="https://github.com/user-attachments/assets/99814494-e4cb-49f6-a31a-a0d2c8d0c8b4" />  
+---
 
-#### Product Focus:Cappuccino
-**Strong sales with cappuccino as the top performer:**
-Cappuccino generated the highest revenue among all products, driving a significant share of the £11K total gross revenue from 2,048 total orders between April 2024 and March 2025. It consistently outperformed other top-selling drinks such as Latte, Hot Chocolate, and Cold Mocha.  
+### Model 2 — Customer Segmentation
+**Type:** Clustering  
+**Goal:** Group members into behavioural segments  
+**Model trained:** KMeans (k=4)  
+**Evaluation:** Silhouette Score, Elbow Method
 
-**Morning sales dominate performance:**
-Most cappuccino orders occurred in the morning (59%), with lunch (37%) and afternoon (4%) contributing smaller portions. This indicates strong early-day demand and highlights the importance of morning-focused promotions and service readiness.  
+| Segment | Members | Avg Visits | Avg Total Spent |
+|---|---|---|---|
+| High Value | 17 | 92 | £419 |
+| Regular | 28 | 84 | £375 |
+| Promo Driven | 25 | 75 | £332 |
+| Occasional | 30 | 74 | £317 |
 
-**Stable yet seasonal sales pattern:**
-Monthly cappuccino revenue fluctuated between **£1,600 and £2,200**, showing mild dips in early winter but strong recoveries by March 2025. This pattern suggests consistent customer loyalty with modest seasonal variation rather than volatility.  
+---
 
-**Opportunities for cross-selling and diversification:**
-Given cappuccino’s strong base, pairing it with bakery items or snacks during peak morning hours could increase average transaction values and enhance overall revenue stability.  
+### Model 3 — Purchase Prediction
+**Type:** Classification  
+**Goal:** Predict what category a member will buy next  
+**Models trained:** Logistic Regression (baseline), Random Forest Classifier  
+**Evaluation:** Accuracy, F1 Score
 
-<img width="1660" height="963" alt="Screenshot 2025-10-20 at 13 29 49" src="https://github.com/user-attachments/assets/2031cdd3-3ec3-41e0-8bb3-a0dccc354028" />  
+| Model | Accuracy | F1 Score |
+|---|---|---|
+| Logistic Regression | 0.6956 | 0.6027 |
+| Random Forest | 0.6094 | 0.5695 |
 
-## Recommendations:
+**Key finding:** A class imbalance was identified — Hot Drinks accounted 
+for 70% of transactions, causing the model to over-predict this category. 
+A balanced Random Forest was trained to address this. Future work would 
+explore SMOTE oversampling to further improve minority category predictions 
+for Bakery, Cold Drinks and Snacks.
 
-These findings suggest that while the business is profitable, it faces risks from seasonal dips, rising cost pressures, and inefficiencies in product mix and inventory. The following recommendations are intended to address these risks, improve margins, and support more consistent, sustainable growth.
+---
 
-Based on the analysis, the following strategic actions are recommended to strengthen the business’ profit margins and reduce performance volatility:  
-1. **Adjust product recipe to reduce cost per unit** — Revise ingredients or portion sizes where feasible to lower production cost without compromising quality or customer satisfaction.  
-2. **Position the product as seasonal** — Emphasise its appeal during high‑demand winter months through targeted marketing and limited‑time offerings, ensuring inventory and staffing are aligned with seasonal demand.  
-3. **Enhance stock management practices** — Monitor stock levels more closely so that inventory targets remain within 12‑15% of daily sales, reducing waste and holding costs. Together, these measures will help mitigate risks stemming from seasonal swings and product inefficiencies. More refined forecasting, tighter cost control, and product optimisation will support more consistent, sustainable growth and improve overall margins.
+### Model 4 — Sales Forecasting
+**Type:** Time Series  
+**Goal:** Forecast weekly revenue for Q2 2026  
+**Models trained:** Exponential Smoothing (baseline), SARIMA  
+**Evaluation:** MAE, MAPE
+
+**Output:** 4 week Q2 2026 revenue forecast exported for business 
+intelligence reporting.
+
+---
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| SQL | Data joining and feature table creation |
+| Python | Feature engineering and ML pipeline |
+| pandas | Data manipulation and aggregation |
+| scikit-learn | Regression, classification and clustering models |
+| statsmodels | Time series forecasting |
+| joblib | Model serialisation |
+| Power BI | Dashboard and visualisation |
+
+---
+
+## Repository Structure
+```
+Project_2_ml/
+├── data/
+│   ├── datasets/        ← raw synthetic datasets
+│   └── *.csv            ← model outputs for Power BI
+├── models/              ← saved .pkl model files
+├── notebooks/           ← one notebook per model
+├── sql/                 ← SQL feature engineering query
+└── README.md
+```
+
+---
+
+## Key Takeaways
+
+- A full end-to-end ML pipeline was built from synthetic data generation 
+  through to saved models and Power BI ready exports
+- Four different ML techniques were applied to the same dataset — 
+  regression, clustering, classification and time series
+- Model evaluation surfaced a real data science challenge — class imbalance 
+  — and a corrective approach was applied and documented
+- Removing an obvious feature (quantity) from the spend predictor produced 
+  a more meaningful and interpretable model
+- SQL was used as the feature engineering layer before Python, reflecting 
+  a realistic analyst to data scientist workflow
+
+---
+
+## Author
+
+Tyrelle Newton  
