@@ -155,15 +155,34 @@ models, directly answering the four core business questions.
 ## Key Takeaways
 
 - A full end-to-end ML pipeline was built from synthetic data generation 
-  through to saved models and Power BI ready exports
+  through SQL feature engineering to four trained and saved ML models.
+
 - Four different ML techniques were applied to the same dataset — 
-  regression, clustering, classification and time series
-- Model evaluation surfaced a real data science challenge — class imbalance 
-  — and a corrective approach was applied and documented
-- Removing an obvious feature (quantity) from the spend predictor produced 
-  a more meaningful and interpretable model
+  regression, clustering, classification and time series — each answering 
+  a distinct business question.
+
+- The spend predictor achieved a mean absolute error of £0.55, predicting 
+  member spend to within 55p on average across 1,600 unseen transactions.
+
+- Removing quantity from the spend predictor revealed the model's 
+  dependency on a single feature — a finding documented as a limitation 
+  of the synthetic dataset and a direction for future improvement with 
+  real member data.
+
+- A class imbalance was identified in the purchase predictor — Hot Drinks 
+  accounted for 68% of transactions — a balanced Random Forest was applied 
+  to address this and the limitation was documented.
+
+- The sales forecast used a flat Q1 average of £2,762.57 per week after 
+  SARIMA and trend-based approaches proved unreliable with only 13 weeks 
+  of training data — projecting £11,050 total revenue for April 2026.
+
+- Two partial trading weeks were excluded from the forecast baseline as 
+  outliers — demonstrating considered analytical judgment over blind 
+  model output.
+
 - SQL was used as the feature engineering layer before Python, reflecting 
-  a realistic analyst to data scientist workflow
+  a realistic data analyst to data scientist workflow.
 
 ---
 
