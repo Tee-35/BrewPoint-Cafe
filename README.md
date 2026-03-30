@@ -142,6 +142,28 @@ intelligence reporting.
 
 ---
 
+## Dashboard
+
+<img width="1038" height="784" alt="Screenshot 2026-03-30 at 21 30 42" src="https://github.com/user-attachments/assets/af93ced8-d05d-416b-8c72-d45c1fa3b106" />
+
+
+---
+
+## Key Takeaways
+
+- A full end-to-end ML pipeline was built from synthetic data generation 
+  through to saved models and Power BI ready exports
+- Four different ML techniques were applied to the same dataset — 
+  regression, clustering, classification and time series
+- Model evaluation surfaced a real data science challenge — class imbalance 
+  — and a corrective approach was applied and documented
+- Removing an obvious feature (quantity) from the spend predictor produced 
+  a more meaningful and interpretable model
+- SQL was used as the feature engineering layer before Python, reflecting 
+  a realistic analyst to data scientist workflow
+
+---
+
 ## Tools & Technologies
 
 | Tool | Purpose |
@@ -167,22 +189,6 @@ Project_2_ml/
 ├── sql/                 ← SQL feature engineering query
 └── README.md
 ```
-
----
-
-## Key Takeaways
-
-- A full end-to-end ML pipeline was built from synthetic data generation 
-  through to saved models and Power BI ready exports
-- Four different ML techniques were applied to the same dataset — 
-  regression, clustering, classification and time series
-- Model evaluation surfaced a real data science challenge — class imbalance 
-  — and a corrective approach was applied and documented
-- Removing an obvious feature (quantity) from the spend predictor produced 
-  a more meaningful and interpretable model
-- SQL was used as the feature engineering layer before Python, reflecting 
-  a realistic analyst to data scientist workflow
-
 ---
 
 ## Author
